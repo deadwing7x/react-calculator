@@ -1,0 +1,18 @@
+.number-button {
+  width: 130px;
+  height: 65px;
+  margin: 1.75px;
+  font-size: 21.75px;
+}
+
+.number-button:hover {
+  opacity: 0.8;
+  transform: scale(0.99);
+  transition: ease-in-out 200ms;
+}
+
+.number-row {
+  width: 130px;
+  height: 65px;
+  margin: 1.75px;
+}

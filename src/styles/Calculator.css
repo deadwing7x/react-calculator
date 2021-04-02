@@ -1,0 +1,127 @@
+.calculator-body {
+  border: 1px solid darkcyan;
+  height: 480px;
+  width: 500px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+.result-screen {
+  height: 100px;
+}
+
+.result-input {
+  width: 485px;
+  height: 90px;
+  margin: 2.5px;
+  font-size: 40px;
+  background-color: #130f0f;
+  color: white;
+}
+
+input[type="text"] {
+  text-align: right;
+}
+
+.first-row,
+.second-row,
+.third-row,
+.fourth-row,
+.fifth-row {
+  display: flex;
+  margin: 1.75px;
+}
+
+#reset-result {
+  width: 265px;
+  height: 90px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 1.75px;
+}
+
+#reset-button {
+  width: 265px;
+  height: 90px;
+  font-size: 30px;
+}
+
+#equals {
+  width: 225px;
+  height: 90px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 1.75px;
+}
+
+.operator-equals {
+  width: 225px;
+  height: 90px;
+  font-size: 30px;
+}
+
+.operator-lastrow {
+  width: 151px;
+  height: 65px;
+  margin: 1.75px;
+}
+
+.operator-lastbutton,
+.modulus-button {
+  width: 151px;
+  height: 65px;
+  margin: 1.75px;
+  font-size: 25px;
+}
+
+.operator-lastbutton:hover,
+.modulus-button:hover {
+  opacity: 0.8;
+  transform: scale(0.99);
+  transition: ease-in-out 200ms;
+}
+
+.number-lastrow {
+  width: 181px;
+  height: 65px;
+  margin: 1.75px;
+}
+
+.number-lastbutton {
+  width: 181px;
+  height: 65px;
+  margin: 1.75px;
+  font-size: 25px;
+}
+
+.number-lastbutton:hover {
+  opacity: 0.8;
+  transform: scale(0.99);
+  transition: ease-in-out 200ms;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

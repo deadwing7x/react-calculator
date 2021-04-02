@@ -1,0 +1,18 @@
+.operator-button {
+  width: 90px;
+  height: 65px;
+  margin: 1.75px;
+  font-size: 25px;
+}
+
+.operator-button:hover {
+  opacity: 0.8;
+  transform: scale(0.99);
+  transition: ease-in-out 200ms;
+}
+
+.operator-row {
+  width: 90px;
+  height: 65px;
+  margin: 1.75px;
+}
